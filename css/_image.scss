@@ -1,0 +1,76 @@
+.hover-rotate {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+    @media (min-width: 1200px) {
+        min-width: 240px;
+        max-width: 320px;
+    }
+}
+
+.over-box {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    color: var(--white);
+    position: absolute;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 9;
+    transition: all 0.3s;
+    padding-bottom: 30px;
+}
+
+.hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+}
+
+.hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+}
+
+.hover-rotate:hover .over-box {
+    padding-bottom: 60px;
+}
+
+.img-box {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+.content-box-w {
+    background: linear-gradient(180deg, #DCEEF2 0%, rgba(220, 238, 242, 0) 100%);
+    border-radius: 10px;
+    width: 100%;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.doc-img-box{
+    width: 100%;
+    height: 373px;
+    overflow: hidden;
+    border-radius: 10px;
+    img{
+        width: 100%;
+        height: 373px;
+        object-fit: cover;
+    }
+}

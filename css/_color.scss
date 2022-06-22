@@ -5,12 +5,19 @@
     --text: #666;
 }
 
-.text-white{
+.text-white {
     color: var(--white);
 }
-.text-black{
+
+.text-black {
     color: var(--black);
 }
-.text-gray{
+
+.text-gray {
     color: var(--gray);
+}
+
+.bg-gradient2 {
+    background: rgb(220, 238, 242);
+    background: linear-gradient(0deg, rgba(220, 238, 242, 0) 0%, rgba(220, 238, 242, 1) 100%);
 }
