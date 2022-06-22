@@ -1,0 +1,16 @@
+:root {
+    --white: #fff;
+    --primary: #00A3E8;
+    --black: #000;
+    --text: #666;
+}
+
+.text-white{
+    color: var(--white);
+}
+.text-black{
+    color: var(--black);
+}
+.text-gray{
+    color: var(--gray);
+}

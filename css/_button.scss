@@ -1,0 +1,14 @@
+.btn-primary{
+    border: none;
+    min-width: 100px;
+    padding: 0px 20px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius:10px;
+    height: 45px;
+    transition: all 0.3s ease-out;
+    &:hover{
+        background-color: #000;
+    }
+}
+
