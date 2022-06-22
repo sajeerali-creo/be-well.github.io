@@ -134,4 +134,11 @@
         z-index: 10;
     }
 
+    .carousel-indicators {
+        bottom: 98px;
+    }
+    .carousel-indicators [data-bs-target] {
+        background-color: var(--primary);
+    }
+
 }

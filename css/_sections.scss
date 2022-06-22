@@ -1,0 +1,29 @@
+.intro-box{
+    position: relative;
+    margin-top: -80px;
+    height: 300px;
+    padding: 60px;
+}
+.blue-box-1{
+    background-color: #00A3E8;
+    height: 250px;
+}
+.blue-box-2{
+    background-color: rgba(0, 162, 232, 0.7);
+    height: 250px;
+}
+.blue-box-3{
+   background-color: rgba(0, 162, 232, 0.5);
+    height: 250px;
+}
+.blue-box-4{
+   background-color: rgba(0, 162, 232, 0.3);
+    height: 250px;
+}
+
+.blue-box-1, .blue-box-2, .blue-box-3, .blue-box-4{
+    h3{
+        font-size: 18px;
+        color: var(--white);
+    }
+}
