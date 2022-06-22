@@ -1,0 +1,108 @@
+:root {
+  --white: #fff;
+  --primary: #00A3E8;
+  --black: #000;
+  --text: #666;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+header .sub-head {
+  min-height: 40px;
+  background-color: var(--white);
+}
+header .sub-head ul li a {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  border-radius: 160px;
+  border: 1px solid #e1e1e1;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: var(--black);
+  margin-right: 5px;
+  transition: all 0.3s ease-out;
+}
+header .sub-head ul li a:hover {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+header .sub-head a {
+  color: var(--black);
+  font-size: 12px;
+  transition: all 0.3s ease-out;
+}
+header .navigation-b li a {
+  color: var(--text);
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 40px;
+  transition: all 0.3s ease-out;
+}
+header .navigation-b li a:hover {
+  color: var(--black);
+}
+header .sm-header {
+  background: var(--black);
+  padding: 15px;
+}
+header .sm-header .logo-sm {
+  height: 60px;
+}
+header .sm-header .btn-menu {
+  border: none;
+  background: none;
+  color: var(--white);
+  font-size: 30px;
+}
+header .offcanvas-body ul li {
+  padding: 20px;
+}
+header .offcanvas-body ul li a {
+  color: var(--black);
+}
+header .offcanvas-body .social li a {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 160px;
+  border: 1px solid #e1e1e1;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: var(--black);
+  transition: all 0.3s ease-out;
+}
+header .offcanvas-body .social li a:hover {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+header .offcanvas-end {
+  width: 330px;
+}/*# sourceMappingURL=main.css.map */
