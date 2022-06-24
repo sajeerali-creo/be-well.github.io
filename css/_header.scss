@@ -31,6 +31,22 @@ header {
             transition: all 0.3s ease-out;
         }
     }
+    .main-head{
+        padding: 10px;
+        .logo img{
+            height: 85px;
+        }
+    }
+    .header-bg{
+        background-color: #eef9fb;
+    }
+    .inner-head{
+        padding: 10px;
+        background-color: #eef9fb;
+        .logo img{
+            height: 85px;
+        }
+    }
     .navigation-b{
         li{
             a{
@@ -91,5 +107,8 @@ header {
     }
     .offcanvas-end{
         width: 330px;
+    }
+    .active{
+        color: var(--black) !important;
     }
 }

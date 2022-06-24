@@ -33,3 +33,57 @@
 .section-pading-bottom{
     padding-bottom: 100px;
 }
+.title-bar{
+    @media (min-width: 992px) {
+        margin-top: 145px;
+    }
+    margin-top: 65px;
+}
+.opacity-50{
+    opacity: 0.5;
+}
+.divider{
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contact-emergency{
+    background: url(../img/contact-emrgency.jpg) no-repeat center center; 
+    background-size: cover;
+    .row{
+        min-height: 600px;
+    }
+}
+
+.patients-say{
+    .owl-carousel{
+        .item{
+            background-color: #E5F3F6;
+            border-radius: 10px;
+            min-height: 257px;
+            p{
+                font-style: italic;
+            }
+        }
+        .owl-dots{
+            margin-top: 30px !important;
+            .owl-dot{
+                &:hover{
+                    span{
+                        background: var(--primary);
+                    }
+                }
+                span{
+                    width: 14px;
+                    height: 14px;
+                    background: #fff;
+                    border: solid 1px var(--primary);
+                }
+            } 
+            .owl-dot.active{
+                span{
+                    background: var(--primary);
+                }
+            }
+        }
+    } 
+}

@@ -4,6 +4,9 @@ body{
 }
 a{
     text-decoration: none;
+    &:hover{
+        color: var(--primary);
+    }
 }
 ul,
 li {

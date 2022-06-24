@@ -14,9 +14,15 @@
 }
 
 .text-gray {
-    color: var(--gray);
+    color: var(--text);
 }
 
+.text-primary {
+    color: var(--primary) !important;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
 .bg-gradient2 {
     background: rgb(220, 238, 242);
     background: linear-gradient(0deg, rgba(220, 238, 242, 0) 0%, rgba(220, 238, 242, 1) 100%);
